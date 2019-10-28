@@ -15,6 +15,7 @@ export default {
     }
   ],
   plugins: [
+    ['@umijs/plugin-qiankun/master', {}],
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
       antd: false,

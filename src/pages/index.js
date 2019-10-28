@@ -2,6 +2,8 @@ import React from 'react';
 import request from 'umi-request';
 import styles from './index.css';
 
+console.log('with qiankun');
+
 request('/api/test')
   .then(res => {
     console.log(JSON.stringify(res));
