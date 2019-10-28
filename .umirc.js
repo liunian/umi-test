@@ -1,6 +1,9 @@
 
 // ref: https://umijs.org/config/
 export default {
+  targets: {
+    ie: 9,
+  },
   treeShaking: true,
   routes: [
     {
@@ -19,7 +22,7 @@ export default {
       dynamicImport: false,
       title: 'umi-test',
       dll: false,
-      
+
       routes: {
         exclude: [
           /components\//,
