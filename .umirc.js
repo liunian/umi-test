@@ -14,6 +14,7 @@ export default {
       ]
     }
   ],
+  extraBabelIncludes: [/@umijs\/plugin-qiankun/],
   plugins: [
     ['@umijs/plugin-qiankun/master', {}],
     // ref: https://umijs.org/plugin/umi-plugin-react.html
